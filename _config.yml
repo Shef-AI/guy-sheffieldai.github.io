@@ -78,6 +78,7 @@ author:
 collections:
   news:
     output: true
+    permalink: /:collection/:path/
 
 footer:
   links:
