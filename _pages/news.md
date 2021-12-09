@@ -1,6 +1,8 @@
 ---
 title: "News"
+layout: collection
 permalink: /news/
-layout: posts
-author_profile: true
+collection: news
+entries_layout: grid
+classes: wide
 ---
