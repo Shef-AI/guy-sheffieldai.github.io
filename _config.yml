@@ -79,7 +79,13 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  resources:
+    output: true
+    permalink: /:collection/:path/
+    
 footer:
   links:
     - label: "Twitter"
