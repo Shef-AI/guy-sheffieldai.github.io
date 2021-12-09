@@ -93,6 +93,14 @@ footer:
       url: "https://instagram.com/"
 
 defaults:
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: single
+      author_profile: false
+      share: true
   # _posts
   - scope:
       path: ""
