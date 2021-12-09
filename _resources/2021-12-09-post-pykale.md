@@ -1,11 +1,11 @@
 ---
-title: "Post: Standard"
+title: "Pykale"
 excerpt_separator: "<!--more-->"
 categories:
-  - resources
+  - Blog
 tags:
   - resources
 
 ---
 
-This is a news item about AI at Sheffield, please read it
+This is a post about pykale 
