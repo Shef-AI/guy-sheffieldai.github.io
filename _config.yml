@@ -85,7 +85,10 @@ collections:
   resources:
     output: true
     permalink: /:collection/:path/
-    
+  events:
+    output: true
+    permalink: /:collection/:path/
+
 footer:
   links:
     - label: "Twitter"
@@ -119,6 +122,14 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _events
+  - scope:
+      path: ""
+      type: events
     values:
       layout: single
       author_profile: false

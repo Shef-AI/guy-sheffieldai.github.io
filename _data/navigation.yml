@@ -3,9 +3,11 @@ main:
     url: /posts/
   - title: "News"
     url: /news/
+  - title: "Events"
+    url: /events/
   - title: "Resources"
     url: /resources/
   - title: "Projects"
-    url: /projects/  
+    url: /projects/
   - title: "About"
     url: /about/
