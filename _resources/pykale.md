@@ -8,4 +8,4 @@ tags:
 
 ---
 
-This is a news item about AI at sheffield
+This is a news item about AI at Sheffield, please read it
