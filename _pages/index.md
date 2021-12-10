@@ -15,21 +15,21 @@ feature_row:
       excerpt: "Find out about our network of AI and data science researchers"
       url: "/about/"
       btn_label: "Read More"
-      btn_class: "btn--inverse"
+      btn_class: "btn--info"
     - image_path: /assets/images/toolbox.png
       alt: "resources"
-      title: "Resources"
+      title: "<center>Resources</center>"
       excerpt: "Open source software, open data, training, research software engineering"
       url: "/resources/"
       btn_label: "Read More"
-      btn_class: "btn--inverse"
+      btn_class: "btn--info"
     - image_path: /assets/images/agree.png
       alt: "events"
-      title: "Events"
+      title: "<center>Events</center>"
       excerpt: "Seminars, data study groups, Alan Turing Institute events, meet-ups"
       url: "/events/"
       btn_label: "Read More"
-      btn_class: "btn--inverse"
+      btn_class: "btn--info"
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
