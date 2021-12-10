@@ -1,6 +1,8 @@
 main:
   - title: "News"
     url: /news/
+  - title: "Network"
+    url: /network/
   - title: "Events"
     url: /events/
   - title: "Resources"
