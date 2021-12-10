@@ -10,19 +10,20 @@ header:
       url: "/about/"
 feature_row:
     - image_path: /assets/images/bio-photo.jpg
-      alt: "placeholder image 1"
-      title: "Placeholder 1"
-      excerpt: "This is some sample content that goes here with **Markdown** formatting."
+      alt: "network"
+      title: "Network"
+      excerpt: "Find out about our network of AI and data science researchers"
+      url: "/about/"
     - image_path: /assets/images/bio-photo.jpg
-      alt: "placeholder image 2"
-      title: "Placeholder 2"
-      excerpt: "This is some sample content that goes here with **Markdown** formatting."
-      url: "test-link"
-      btn_label: "Read More"
-      btn_class: "btn--inverse"
+      alt: "resources"
+      title: "Resources"
+      excerpt: "Open source software, training, research software engineering"
+      url: "/resources/"
     - image_path: /assets/images/bio-photo.jpg
-      title: "Placeholder 3"
-      excerpt: "This is some sample content that goes here with **Markdown** formatting."
+      alt: "events"
+      title: "Events"
+      excerpt: "Seminars, data study groups, meet-ups"
+      url: "/events/"
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
