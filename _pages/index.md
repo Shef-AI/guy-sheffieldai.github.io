@@ -11,21 +11,21 @@ header:
 feature_row:
     - image_path: /assets/images/networking.png
       alt: "network"
-      title: "<center>Network</center>"
+      title: "Network"
       excerpt: "Find out about our network of AI and data science researchers"
       url: "/about/"
       btn_label: "Read More"
-      btn_class: "btn--info{: .text-center}"
+      btn_class: "btn--info"
     - image_path: /assets/images/toolbox.png
       alt: "resources"
-      title: "<center>Resources</center>"
+      title: "Resources"
       excerpt: "Open source software, open data, training, research software engineering"
       url: "/resources/"
       btn_label: "Read More"
       btn_class: "btn--info"
     - image_path: /assets/images/agree.png
       alt: "events"
-      title: "<center>Events</center>"
+      title: "Events"
       excerpt: "Seminars, data study groups, Alan Turing Institute events, meet-ups"
       url: "/events/"
       btn_label: "Read More"
