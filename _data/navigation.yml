@@ -1,6 +1,4 @@
 main:
-  - title: "Blog"
-    url: /blog/
   - title: "News"
     url: /news/
   - title: "Events"
@@ -9,5 +7,9 @@ main:
     url: /resources/
   - title: "Projects"
     url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "Blog"
+    url: /blog/
   - title: "About"
     url: /about/
