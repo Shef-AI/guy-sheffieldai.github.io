@@ -146,7 +146,7 @@ defaults:
       type: blog
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
   # _publications
   - scope:
@@ -154,7 +154,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
   # _posts
   - scope:
