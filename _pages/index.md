@@ -11,7 +11,7 @@ header:
 feature_row:
     - image_path: /assets/images/networking.png
       alt: "network"
-      title: "Network"
+      title: "<center>Network</center>"
       excerpt: "Find out about our network of AI and data science researchers"
       url: "/about/"
       btn_label: "Read More"
