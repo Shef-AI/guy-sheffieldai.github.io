@@ -14,16 +14,22 @@ feature_row:
       title: "Network"
       excerpt: "Find out about our network of AI and data science researchers"
       url: "/about/"
+      btn_label: "Read More"
+      btn_class: "btn--inverse"
     - image_path: /assets/images/bio-photo.jpg
       alt: "resources"
       title: "Resources"
       excerpt: "Open source software, training, research software engineering"
       url: "/resources/"
+      btn_label: "Read More"
+      btn_class: "btn--inverse"
     - image_path: /assets/images/bio-photo.jpg
       alt: "events"
       title: "Events"
       excerpt: "Seminars, data study groups, meet-ups"
       url: "/events/"
+      btn_label: "Read More"
+      btn_class: "btn--inverse"
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
