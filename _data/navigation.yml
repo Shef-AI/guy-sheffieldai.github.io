@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: /home/
   - title: "News"
     url: /news/
   - title: "Events"
