@@ -2,7 +2,7 @@
 title: "AI@Sheffield"
 layout: splash
 permalink: /
-excerpt: "Some text goes here"
+excerpt: "Hub for artificial intelligence and data science research at the University of Sheffield"
 header:
   overlay_image: /assets/images/banner.jpg
   actions:
