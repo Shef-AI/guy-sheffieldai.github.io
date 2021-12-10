@@ -91,7 +91,10 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
-
+  publications:
+    output: true
+    permalink: /:collection/:path/
+    
 footer:
   links:
     - label: "Twitter"
