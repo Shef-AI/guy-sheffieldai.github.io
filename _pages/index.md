@@ -9,24 +9,24 @@ header:
     - label: "More"
       url: "/about/"
 feature_row:
-    - image_path: /assets/images/bio-photo.jpg
+    - image_path: /assets/images/networking.png
       alt: "network"
       title: "Network"
       excerpt: "Find out about our network of AI and data science researchers"
       url: "/about/"
       btn_label: "Read More"
       btn_class: "btn--inverse"
-    - image_path: /assets/images/bio-photo.jpg
+    - image_path: /assets/images/toolbox.png
       alt: "resources"
       title: "Resources"
-      excerpt: "Open source software, training, research software engineering"
+      excerpt: "Open source software, open data, training, research software engineering"
       url: "/resources/"
       btn_label: "Read More"
       btn_class: "btn--inverse"
-    - image_path: /assets/images/bio-photo.jpg
+    - image_path: /assets/images/agree.png
       alt: "events"
       title: "Events"
-      excerpt: "Seminars, data study groups, meet-ups"
+      excerpt: "Seminars, data study groups, Alan Turing Institute events, meet-ups"
       url: "/events/"
       btn_label: "Read More"
       btn_class: "btn--inverse"
