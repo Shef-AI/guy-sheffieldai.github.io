@@ -1,14 +1,14 @@
 ---
-permalink: /
-title: "Home"
+title: "AI@Sheffield"
 layout: splash
+permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/banner.jpg
-actions:
-  - label: "More"
-  url: "#about"
+  actions:
+    - label: "More"
+    url: "#about"
 excerpt: "A hub for artificial intelligence and data science research at the University of Sheffield"
 ---
 
