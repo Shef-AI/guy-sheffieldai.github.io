@@ -14,7 +14,7 @@ feature_row:
       title: "<center>Network</center>"
       excerpt: "Find out about our network of AI and data science researchers"
       url: "/about/"
-      btn_label: "Read More"
+      btn_label: "<center>Read More</center>"
       btn_class: "btn--info"
     - image_path: /assets/images/toolbox.png
       alt: "resources"
