@@ -2,6 +2,7 @@
 title: "AI@Sheffield"
 layout: splash
 permalink: /
+excerpt: "Some text goes here"
 header:
   overlay_image: /assets/images/banner.jpg
   actions:
