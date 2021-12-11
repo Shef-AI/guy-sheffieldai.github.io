@@ -1,5 +1,5 @@
 ---
-title: "Open source software and open data"
+title: "Open source software and data"
 layout: collection
 permalink: /open-source/
 collection: open-source

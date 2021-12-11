@@ -2,7 +2,7 @@
 title: "Research"
 layout: collection
 permalink: /research/
-collection: research
+collection: publications
 classes: wide
 author_profile: false
 header:
