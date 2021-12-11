@@ -34,7 +34,7 @@ layout: default
           </h1>{% endif %}
           {% if page.authors %}<p>{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
           {% if page.place %}<p>{{ page.place | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
-          {% if page.doi %}<p>{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+          {% if page.doi %}<p><a href="{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}">{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>{% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
