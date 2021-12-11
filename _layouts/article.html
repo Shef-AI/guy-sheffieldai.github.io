@@ -20,6 +20,8 @@ layout: default
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.authors %}<meta itemprop="authors" content="{{ page.authors | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.place %}<meta itemprop="place" content="{{ page.authors | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.doi %}<meta itemprop="doi" content="{{ page.authors | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
@@ -31,6 +33,8 @@ layout: default
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
           {% if page.authors %}{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+          {% if page.place %}{{ page.place | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+          {% if page.doi %}{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
