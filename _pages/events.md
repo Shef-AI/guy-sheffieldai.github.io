@@ -5,4 +5,5 @@ permalink: /events/
 collection: events
 entries_layout: grid
 classes: wide
+author_profile: false
 ---

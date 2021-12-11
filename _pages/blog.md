@@ -5,4 +5,5 @@ permalink: /blog/
 collection: blog
 entries_layout: grid
 classes: wide
+author_profile: false
 ---
