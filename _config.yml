@@ -142,12 +142,9 @@ defaults:
       path: ""
       type: publications
     values:
-      title: "Research"
       layout: article
       author_profile: false
       share: true
-      header:
-        overlay_image: /assets/images/banner.jpg
   # _posts
   - scope:
       path: ""
