@@ -9,10 +9,8 @@ main:
     url: /events/
   - title: "Open Source"
     url: /open-source/
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
   - title: "Blog"
     url: /blog/
   - title: "About"

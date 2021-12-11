@@ -79,9 +79,6 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
   open-source:
     output: true
     permalink: /:collection/:path/
@@ -120,14 +117,6 @@ defaults:
   - scope:
       path: ""
       type: open-source
-    values:
-      layout: single
-      author_profile: false
-      share: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
     values:
       layout: single
       author_profile: false
