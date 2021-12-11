@@ -3,6 +3,8 @@ main:
     url: /news/
   - title: "Network"
     url: /network/
+  - title: "Training"
+    url: /training/
   - title: "Events"
     url: /events/
   - title: "Resources"
