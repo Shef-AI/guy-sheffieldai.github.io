@@ -32,9 +32,9 @@ layout: default
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
-          {% if page.authors %}{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
-          {% if page.place %}{{ page.place | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
-          {% if page.doi %}{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+          {% if page.authors %}<p>{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+          {% if page.place %}<p>{{ page.place | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+          {% if page.doi %}<p>{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
