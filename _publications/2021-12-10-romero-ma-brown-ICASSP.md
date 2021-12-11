@@ -2,7 +2,7 @@
 title: "Snorer diarisation based on deep neural network embeddings"
 authors: "Hector Romero, Ning Ma and Guy J Brown"
 place: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, 2020, pp. 876-880"
-doi: "doi://10.1109/ICASSP40776.2020.9053683"
+link: "https://doi.org/10.1109/ICASSP40776.2020.9053683"
 ---
 
 Acoustic analysis of sleep breathing sounds using a smartphone at home provides a much less obtrusive means of screening for sleep disordered breathing (SDB) than assessment in a sleep clinic. However, application in a home environment is confounded by the problem that a bed partner may also be present and snore. This paper proposes a novel acoustic analysis system for snorer diarisation, a concept extrapolated from speaker diarisation research, which allows screening for SDB of both the user and the bed partner using a single smartphone. The snorer diarisation system involves three steps. First, a deep neural network (DNN) is employed to estimate the number of concurrent snorers in short segments of monaural audio recordings. Second, the identified snore segments are clustered using snorer embeddings, a feature representation that allows different snorers to be discriminated. Finally, a snore transcription is automatically generated for each snorer by combining consecutive snore segments. The system is evaluated on both synthetic snore mixtures and real two-snorer recordings. The results show that it is possible to accurately screen a subject and their bed partner for SDB in the same session from recordings of a single smartphone.

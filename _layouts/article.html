@@ -20,8 +20,8 @@ layout: default
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.authors %}<meta itemprop="authors" content="{{ page.authors | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.place %}<meta itemprop="place" content="{{ page.authors | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.doi %}<meta itemprop="doi" content="{{ page.authors | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.place %}<meta itemprop="place" content="{{ page.place | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.link %}<meta itemprop="link" content="{{ page.link | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
@@ -34,7 +34,7 @@ layout: default
           </h1>{% endif %}
           {% if page.authors %}<p>{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
           {% if page.place %}<p>{{ page.place | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
-          {% if page.doi %}<p><a href="{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}">{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>{% endif %}
+          {% if page.link %}<p><a href="{{ page.link | markdownify | remove: "<p>" | remove: "</p>" }}">{{ page.link | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>{% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
