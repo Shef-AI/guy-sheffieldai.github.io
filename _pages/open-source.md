@@ -1,8 +1,8 @@
 ---
-title: "Resources"
+title: "Open source software and open data"
 layout: collection
-permalink: /resources/
-collection: resources
+permalink: /open-source/
+collection: open-source
 classes: wide
 author_profile: false
 ---

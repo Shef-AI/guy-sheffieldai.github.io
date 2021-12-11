@@ -82,7 +82,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  resources:
+  open-source:
     output: true
     permalink: /:collection/:path/
   events:
@@ -116,10 +116,10 @@ defaults:
       layout: single
       author_profile: false
       share: true
-  # _resources
+  # _open-source
   - scope:
       path: ""
-      type: resources
+      type: open-source
     values:
       layout: single
       author_profile: false

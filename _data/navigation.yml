@@ -7,8 +7,8 @@ main:
     url: /training/
   - title: "Events"
     url: /events/
-  - title: "Resources"
-    url: /resources/
+  - title: "Open source"
+    url: /open-source/
   - title: "Projects"
     url: /projects/
   - title: "Publications"
