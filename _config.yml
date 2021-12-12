@@ -113,6 +113,9 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      subtitle: "News"
+      header:
+        overlay_image: /assets/images/banner.jpg
   # _open-source
   - scope:
       path: ""
