@@ -2,10 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$link-color: mix($primary-color, $text-color, 80%) !default;
-$link-color-hover: mix(#fff, $link-color, 25%) !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
