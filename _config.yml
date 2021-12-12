@@ -115,7 +115,7 @@ defaults:
       share: true
       subtitle: "News"
       header:
-        overlay_image: /assets/images/banner.jpg
+        overlay_image: /assets/images/banner2.jpg
   # _open-source
   - scope:
       path: ""
@@ -126,7 +126,7 @@ defaults:
       share: true
       subtitle: "Open source software and data"
       header:
-        overlay_image: /assets/images/banner.jpg
+        overlay_image: /assets/images/banner2.jpg
   # _events
   - scope:
       path: ""
