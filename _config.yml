@@ -115,7 +115,7 @@ defaults:
       share: true
       subtitle: "News"
       header:
-        overlay_image: /assets/images/banner-movie.webm.jpg
+        overlay_image: /assets/images/banner.jpg
   # _open-source
   - scope:
       path: ""
