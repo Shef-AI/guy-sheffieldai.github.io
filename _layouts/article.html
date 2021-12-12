@@ -27,7 +27,6 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
@@ -37,7 +36,6 @@ layout: default
           {% if page.doi %}<p><a href="{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}">{{ page.doi | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>{% endif %}
           {% include page__meta.html %}
         </header>
-      {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
