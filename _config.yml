@@ -56,6 +56,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-twitter-plugin
 
 author:
   name   : "First Lastname"
