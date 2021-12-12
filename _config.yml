@@ -121,7 +121,7 @@ defaults:
       path: ""
       type: open-source
     values:
-      layout: single
+      layout: openitem
       author_profile: false
       share: true
       subtitle: "Open source software and data"
@@ -132,7 +132,7 @@ defaults:
       path: ""
       type: events
     values:
-      layout: single
+      layout: eventitem
       author_profile: false
       share: true
       subtitle: "Events"
@@ -143,7 +143,7 @@ defaults:
       path: ""
       type: blog
     values:
-      layout: single
+      layout: blogitem
       author_profile: false
       share: true
       subtitle: "Blog"
