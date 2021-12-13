@@ -38,10 +38,21 @@ Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad veli
 
 Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
 
+<table>
+<tr>
+<td>
 <h1>Latest news</h1>
 {% assign post = site.posts.first %}
 <a href="{{ post.permalink }}">{{ post.title }}</a>
 <p>{{ post.excerpt }}</p>
+</td>
+<td>
+<h1>Latest news</h1>
+{% assign post = site.posts.first %}
+<a href="{{ post.permalink }}">{{ post.title }}</a>
+<p>{{ post.excerpt }}</p>
+</td>
+</tr>
 
 Nulla deserunt eiusmod, est sunt veniam legam laborum. Iudicem aute sed possumus
 instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
