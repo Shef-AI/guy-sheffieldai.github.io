@@ -48,9 +48,9 @@ instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
 hic quamquam instituendarum.
 
 <div class="feature__wrapper">
-    <div class="feature__item">
-      <div class="archive__item">
-        <div class="archive__item-body">
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
           <h2>Left side</h2>
           <div class="archive__item-excerpt">
           Do amet export a ullamco. Fugiat id singulis qui tempor, offendit ita legam
@@ -59,13 +59,13 @@ hic quamquam instituendarum.
           concursionibus, probant minim eram singulis duis ex consequat non irure sed aut
           voluptate qui incurreret, eram cernantur ut relinqueret de excepteur hic dolore
           </div>
-        </div>
       </div>
     </div>
-    <div class="feature__item">
-      <div class="archive__item">
-        <div class="archive__item-body">
-          <h2>Left side</h2>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+          <h2>Right side</h2>
           <div class="archive__item-excerpt">
           Do amet export a ullamco. Fugiat id singulis qui tempor, offendit ita legam
           officia. Ut sint officia coniunctione si fabulas eu excepteur, possumus nam
@@ -73,7 +73,6 @@ hic quamquam instituendarum.
           concursionibus, probant minim eram singulis duis ex consequat non irure sed aut
           voluptate qui incurreret, eram cernantur ut relinqueret de excepteur hic dolore
           </div>
-        </div>
       </div>
     </div>
   </div>
