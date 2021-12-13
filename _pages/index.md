@@ -47,38 +47,37 @@ Nulla deserunt eiusmod, est sunt veniam legam laborum. Iudicem aute sed possumus
 instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
 hic quamquam instituendarum.
 
-<div id="feature__wrapper">
-<div id="feature__item">
-<p>Officia e nulla, ut quae firmissimum. Elit cupidatat ex efflorescere. A constias
-ad incididunt, singulis est malis ne ad nulla tamen minim expetendis ubi et quae
-magna et singulis ex aliqua incididunt concursionibus, a quis cernantur
-efflorescere, amet id officia, incididunt sint offendit.Cupidatat hic aliqua hic
-senserit sunt ingeniis laborum ne vidisse eram esse iis eram, magna ex an elit
-incididunt. Excepteur tempor nostrud arbitror, summis consectetur appellat nisi
-constias te e multos commodo exquisitaque e eiusmod quem senserit occaecat ad
-quis cupidatat despicationes et te legam appellat coniunctione qui doctrina
-tamen mentitum admodum, dolor ne te aliqua constias. Quo fore quorum eram
-laboris.</p>
+<div class="feature__wrapper">
+    <div class="feature__item">
+      <div class="archive__item">
+        <div class="archive__item-body">
+          <h2>Left side</h2>
+          <div class="archive__item-excerpt">
+          Do amet export a ullamco. Fugiat id singulis qui tempor, offendit ita legam
+          officia. Ut sint officia coniunctione si fabulas eu excepteur, possumus nam
+          duis, admodum fugiat multos an magna. Minim a ullamco eu nisi, o aliquip
+          concursionibus, probant minim eram singulis duis ex consequat non irure sed aut
+          voluptate qui incurreret, eram cernantur ut relinqueret de excepteur hic dolore
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature__item">
+      <div class="archive__item">
+        <div class="archive__item-body">
+          <h2>Left side</h2>
+          <div class="archive__item-excerpt">
+          Do amet export a ullamco. Fugiat id singulis qui tempor, offendit ita legam
+          officia. Ut sint officia coniunctione si fabulas eu excepteur, possumus nam
+          duis, admodum fugiat multos an magna. Minim a ullamco eu nisi, o aliquip
+          concursionibus, probant minim eram singulis duis ex consequat non irure sed aut
+          voluptate qui incurreret, eram cernantur ut relinqueret de excepteur hic dolore
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-<div id="feature__item">
-<p>Se eiusmod hic consequat, de culpa export ipsum occaecat nam hic mentitum
-efflorescere in elit senserit e laboris, hic cillum quis te cupidatat et an
-fugiat vidisse iudicem, ea cillum illustriora, a quorum excepteur cohaerescant.
-Ne in illum magna multos se hic amet fugiat enim deserunt eu culpa appellat a
-laborum ad sint de ab quid expetendis, occaecat relinqueret si cernantur non
-irure proident ad incididunt, ubi quid laboris ne offendit aut ullamco.
-Quibusdam distinguantur ab cupidatat, se esse litteris a commodo arbitrantur in
-eiusmod, te fore velit ne appellat, nulla ne constias ita ipsum, eu tempor
-nescius senserit, ita malis quem velit voluptate eu do occaecat et iudicem. Duis
-an litteris iis noster de laborum quis anim ea duis an ne nisi imitarentur, sed
-hic fore export labore.Consequat eu cillum nescius. Sunt appellat de
-philosophari. Illum ne iudicem quo duis, quo esse dolore ubi aliquip ubi
-offendit duis proident constias, aute reprehenderit probant sint quamquam.
-Fabulas anim quo litteris fidelissimae, iudicem quae constias, et o
-comprehenderit o export instituendarum nescius veniam ullamco.</p>
-</div>
-</div>
-
 
 Deserunt iis fugiat doctrina, commodo aute an
 appellat firmissimum, ullamco si cernantur quo ut velit dolore quem occaecat, e
