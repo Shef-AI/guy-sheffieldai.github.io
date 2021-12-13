@@ -39,17 +39,12 @@ Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad veli
 Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
 
 
-<div class="flex-container">
-  <div class="flex-left">
-    <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/haipinglu?ref_src=twsrc%5Etfw">Tweets by haipinglu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
-  </div>
-  <div class="flex-right">
+
     <h1>Latest news</h1>
     {% assign post = site.posts.first %}
     <a href="{{ post.permalink }}">{{ post.title }}</a>
     <p>{{ post.excerpt }}</p>
-  </div>
-</div>
+
 
 Nulla deserunt eiusmod, est sunt veniam legam laborum. Iudicem aute sed possumus
 instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
