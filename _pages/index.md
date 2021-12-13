@@ -40,7 +40,7 @@ Nulla deserunt eiusmod, est sunt veniam legam laborum. Iudicem aute sed possumus
 instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
 hic quamquam instituendarum.
 
-<div class="feature__wrapper">
+<div class="feature__wrapper__no__lines">
   <div class="feature__item">
     <div class="archive__item">
       <div class="archive__item-body">
@@ -76,8 +76,3 @@ hic quamquam instituendarum.
     </div>
   </div>
 </div>
-
-Deserunt iis fugiat doctrina, commodo aute an
-appellat firmissimum, ullamco si cernantur quo ut velit dolore quem occaecat, e
-esse voluptatibus, quorum praetermissum vidisse nulla mandaremus, an aute ad
-noster, excepteur illum quid proident cillum.

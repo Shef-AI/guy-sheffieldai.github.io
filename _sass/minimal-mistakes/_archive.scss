@@ -249,6 +249,15 @@
   }
 }
 
+.feature__wrapper__no__lines {
+  @include clearfix();
+  margin-bottom: 2em;
+
+  .archive__item-title {
+    margin-bottom: 0;
+  }
+}
+
 .feature__item {
   position: relative;
   margin-bottom: 2em;
