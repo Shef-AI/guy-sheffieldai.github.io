@@ -68,7 +68,7 @@ hic quamquam instituendarum.
       <div class="archive__item-body">
           <h2>Latest publication</h2>
           <div class="archive__item-excerpt">
-          {% assign post = site.publication.last %}
+          {% assign post = site.publications.last %}
           <a href="{{ post.permalink }}">{{ post.title }}</a>
           <p>{{ post.excerpt }}</p>
           </div>
