@@ -38,18 +38,14 @@ Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad veli
 
 Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.permalink }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<h1>Latest news</h1>
+{% assign post = site.posts.first %}
+<a href="{{ post.permalink }}">{{ post.title }}</a>
+<p>{{ post.excerpt }}</p>
 
 Nulla deserunt eiusmod, est sunt veniam legam laborum. Iudicem aute sed possumus
 instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
 hic quamquam instituendarum. Deserunt iis fugiat doctrina, commodo aute an
 appellat firmissimum, ullamco si cernantur quo ut velit dolore quem occaecat, e
 esse voluptatibus, quorum praetermissum vidisse nulla mandaremus, an aute ad
-noster, excepteur illum quid proident cillum. 
+noster, excepteur illum quid proident cillum.
