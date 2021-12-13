@@ -16,7 +16,7 @@ feature_row:
       btn_class: "btn--danger"
     - title: "Open source"
       excerpt: "Open source software and open data provided by researchers at the University of Sheffield"
-      url: "/resources/"
+      url: "/open-source/"
       btn_label: "Read More"
       btn_class: "btn--danger"
     - title: "Events"
