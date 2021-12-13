@@ -4,6 +4,7 @@ layout: collection
 permalink: /open-source/
 collection: open-source
 classes: wide
+entries_layout: grid
 author_profile: false
 header:
   overlay_image: /assets/images/banner.jpg
