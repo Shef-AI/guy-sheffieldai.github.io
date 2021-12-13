@@ -34,14 +34,7 @@ Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusm
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
 
-<a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/haipinglu?ref_src=twsrc%5Etfw">Tweets by haipinglu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
-
-<h1>Latest news</h1>
-{% assign post = site.posts.first %}
-<a href="{{ post.permalink }}">{{ post.title }}</a>
-<p>{{ post.excerpt }}</p>
 
 Nulla deserunt eiusmod, est sunt veniam legam laborum. Iudicem aute sed possumus
 instituendarum, ut est quae sint illum in expetendis labore sint probant quid e
@@ -51,13 +44,9 @@ hic quamquam instituendarum.
   <div class="feature__item">
     <div class="archive__item">
       <div class="archive__item-body">
-          <h2>Left side</h2>
+          <h2>Twitter</h2>
           <div class="archive__item-excerpt">
-          Do amet export a ullamco. Fugiat id singulis qui tempor, offendit ita legam
-          officia. Ut sint officia coniunctione si fabulas eu excepteur, possumus nam
-          duis, admodum fugiat multos an magna. Minim a ullamco eu nisi, o aliquip
-          concursionibus, probant minim eram singulis duis ex consequat non irure sed aut
-          voluptate qui incurreret, eram cernantur ut relinqueret de excepteur hic dolore
+          <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/haipinglu?ref_src=twsrc%5Etfw">Tweets by haipinglu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
       </div>
     </div>
@@ -65,13 +54,23 @@ hic quamquam instituendarum.
   <div class="feature__item">
     <div class="archive__item">
       <div class="archive__item-body">
-          <h2>Right side</h2>
+          <h2>Latest news</h2>
           <div class="archive__item-excerpt">
-          Do amet export a ullamco. Fugiat id singulis qui tempor, offendit ita legam
-          officia. Ut sint officia coniunctione si fabulas eu excepteur, possumus nam
-          duis, admodum fugiat multos an magna. Minim a ullamco eu nisi, o aliquip
-          concursionibus, probant minim eram singulis duis ex consequat non irure sed aut
-          voluptate qui incurreret, eram cernantur ut relinqueret de excepteur hic dolore
+          {% assign post = site.posts.first %}
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+          <p>{{ post.excerpt }}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+          <h2>Latest publication</h2>
+          <div class="archive__item-excerpt">
+          {% assign post = site.posts.first %}
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+          <p>{{ post.excerpt }}</p>
           </div>
       </div>
     </div>
