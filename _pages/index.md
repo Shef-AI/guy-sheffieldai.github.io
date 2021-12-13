@@ -70,7 +70,7 @@ hic quamquam instituendarum.
           <div class="archive__item-excerpt">
           {% assign post = site.publications.last %}
           <a href="{{ post.permalink }}">{{ post.title }}</a>
-          {{ post.excerpt | truncatewords: 100 }}
+          {{ post.excerpt }}
           </div>
       </div>
     </div>
