@@ -1,7 +1,7 @@
 ---
 title: "Snorer diarisation based on deep neural network embeddings"
 authors: "Hector Romero, Ning Ma and Guy J Brown"
-excerpt: "This paper proposes a novel acoustic analysis system for snorer diarisation, which allows screening for sleep disordered breathing of both a subject and their bed partner using a single smartphone."
+excerpt: "Acoustic analysis of sleep breathing sounds using a smartphone at home provides a much less obtrusive means of screening for sleep disordered breathing (SDB) than assessment in a sleep clinic. However, application in a home environment is confounded by the problem that a bed partner may also be present and snore. This paper proposes a novel acoustic analysis system for snorer diarisation, a concept extrapolated from speaker diarisation research, which allows screening for SDB of both the user and the bed partner using a single smartphone."
 place: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, 2020, pp. 876-880"
 doi: "https://doi.org/10.1109/ICASSP40776.2020.9053683"
 ---
