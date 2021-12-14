@@ -84,7 +84,6 @@ comprehenderit. Appellat quid irure a elit.
           {% assign post = site.publications.last %}
           <a href="{{ post.permalink }}">{{ post.title }}</a>
           <p>{{ post.authors }}</p>
-          <p>{{ post.place }}</p>
           <p>{{ post.excerpt }}</p>
           </div>
       </div>
