@@ -2,7 +2,7 @@
 title: "AI@Sheffield"
 layout: splash
 permalink: /
-excerpt: "Artificial intelligence and data science<br>at the University of Sheffield"
+excerpt: "Artificial Intelligence and Data Science<br>at the University of Sheffield"
 header:
   overlay_image: /assets/images/banner.jpg
   actions:
