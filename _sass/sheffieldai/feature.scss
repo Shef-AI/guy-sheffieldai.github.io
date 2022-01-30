@@ -1,0 +1,10 @@
+/* variant of feature rows with no borders */
+
+.feature__wrapper__no__lines {
+  @include clearfix();
+  margin-bottom: 2em;
+
+  .archive__item-title {
+    margin-bottom: 0;
+  }
+}
